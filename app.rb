@@ -1,4 +1,4 @@
 require 'i18n'
-I18n.load_path = Dir['/config/locales/rus.yml']
+I18n.load_path = Dir['/*.yml']
 
-puts russian_text.laught
+puts I18n.translate('en.laught')
